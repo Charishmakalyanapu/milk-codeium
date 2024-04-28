@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Milk Company</title>
+  <style>
+    body {
+      background-color: #f2f2f2;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background-color: #ffcc00;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header button {
+      background-color: #ffffff;
+      color: #ffcc00;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    main {
+      padding: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .product {
+      width: 300px;
+      padding: 20px;
+      background-color: #ffffff;
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+      margin-bottom: 20px;
+    }
+
+    .product img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background-color: #ffcc00;
+      padding: 20px;
+      text-align: center;
+      color: #ffffff;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    label {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      padding: 10px;
+      margin-bottom: 10px;
+      width: 100%;
+      max-width: 400px;
+      border: 1px solid #cccccc;
+      border-radius: 5px;
+    }
+
+    button {
+      background-color: #ffffff;
+      color: #ffcc00;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <button>Home</button>
+    <button>Product</button>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+      <label for="message">Message:</label>
+      <textarea id="message" name="message"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </header>
+
+  <main>
+    <div class="product">
+      <img src="milk1.jpg" alt="Milk Product 1">
+      <h3>Milk Product 1</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod nulla eget urna suscipit, vitae auctor dui tincidunt.</p>
